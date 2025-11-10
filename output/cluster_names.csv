@@ -1,0 +1,752 @@
+product,cluster_column,cluster_label,cluster_name
+"Money transfer, virtual currency, or money service",cluster_label_20,9,**Frozen Account & Withheld Funds**
+"Money transfer, virtual currency, or money service",cluster_label_20,17,**Financial Fraud and Unresolved Consumer Loss**
+"Money transfer, virtual currency, or money service",cluster_label_20,14,**Unjustified Account Restrictions & Fund Holds**
+"Money transfer, virtual currency, or money service",cluster_label_20,21,**Payment Fraud & Unrecoverable Losses**
+"Money transfer, virtual currency, or money service",cluster_label_20,5,**Funds Access and Dispute Resolution Failures**
+"Money transfer, virtual currency, or money service",cluster_label_20,19,Mobile Payment Platform Transaction Disputes & Account Mismanagement
+"Money transfer, virtual currency, or money service",cluster_label_20,37,**Fraudulent Payments and Unresolved Fund Recovery**
+"Money transfer, virtual currency, or money service",cluster_label_20,1,**Payment Fraud & Refund Disputes**
+"Money transfer, virtual currency, or money service",cluster_label_20,13,**Customer Support and Transaction Resolution Failures**
+"Money transfer, virtual currency, or money service",cluster_label_20,27,Payment‑App Fund Lockouts & Fraud Recovery Issues
+"Money transfer, virtual currency, or money service",cluster_label_20,22,**Unauthorized Transactions & Account Lockouts**
+"Money transfer, virtual currency, or money service",cluster_label_20,38,**Digital‑Payment App Account & Transaction Dispute Issues**
+"Money transfer, virtual currency, or money service",cluster_label_20,41,**Unauthorized Account Activity & Funds Mismanagement**
+"Money transfer, virtual currency, or money service",cluster_label_20,43,**Unauthorized Transfers & Account Mismanagement**
+"Money transfer, virtual currency, or money service",cluster_label_20,32,**Unauthorized Charges & Account Lockout Issues**
+"Money transfer, virtual currency, or money service",cluster_label_20,45,**Incorrect Recipient Payments and Unrecoverable Funds**
+"Money transfer, virtual currency, or money service",cluster_label_20,47,**Online payment platform transaction & account disputes**
+"Money transfer, virtual currency, or money service",cluster_label_20,3,**Mobile Payment Fraud & Account Access Problems**
+"Money transfer, virtual currency, or money service",cluster_label_20,46,**Unauthorized Payments & Account Access Disputes**
+"Money transfer, virtual currency, or money service",cluster_label_20,16,**Improper Fund Seizure and Transaction Dispute Issues**
+"Money transfer, virtual currency, or money service",cluster_label_20,30,**Unauthorized Payments & Unreimbursed Losses**
+"Money transfer, virtual currency, or money service",cluster_label_20,11,Fraud and Unauthorized Transaction Issues
+"Money transfer, virtual currency, or money service",cluster_label_20,12,**Fraudulent Activity with Unresolved Refunds**
+"Money transfer, virtual currency, or money service",cluster_label_20,0,**Unauthorized Transfers & Account Fraud**
+"Money transfer, virtual currency, or money service",cluster_label_20,36,**Unauthorized Payments & Fraud Prevention Failures**
+"Money transfer, virtual currency, or money service",cluster_label_20,4,**P2P Payment Fraud and Transaction Failures**
+"Money transfer, virtual currency, or money service",cluster_label_20,31,**Irreversible Zelle Transfer Scams**
+"Money transfer, virtual currency, or money service",cluster_label_20,39,Undisclosed Risks and Irreversible Transfers
+"Money transfer, virtual currency, or money service",cluster_label_20,23,**Payment Transfer & Account Fraud Issues**
+"Money transfer, virtual currency, or money service",cluster_label_20,33,Fraudulent Transaction Dispute & Unresponsive Support
+"Money transfer, virtual currency, or money service",cluster_label_20,15,**Unfair Practices and Inadequate Customer Support**
+"Money transfer, virtual currency, or money service",cluster_label_20,26,**Dispute Resolution Failures**
+"Money transfer, virtual currency, or money service",cluster_label_20,28,Incorrect Recipient Payments & Refund Difficulties
+"Money transfer, virtual currency, or money service",cluster_label_20,48,**Inadequate Dispute Resolution & Consumer Protection Failures**
+"Money transfer, virtual currency, or money service",cluster_label_20,6,Dispute Resolution Failures and Consumer Safety Concerns
+"Money transfer, virtual currency, or money service",cluster_label_20,2,Unresolved Fraud Dispute Handling
+"Money transfer, virtual currency, or money service",cluster_label_20,44,**Failed Fraud Investigation & Dispute Resolution**
+"Money transfer, virtual currency, or money service",cluster_label_20,7,**Digital Payment Dispute Handling Concerns**
+"Money transfer, virtual currency, or money service",cluster_label_20,29,**Inadequate Fraud Protection & Dispute Resolution**
+"Money transfer, virtual currency, or money service",cluster_label_20,34,**Dispute Handling Concerns**
+"Money transfer, virtual currency, or money service",cluster_label_20,42,**Reimbursement Request for Disputed Transactions**
+"Money transfer, virtual currency, or money service",cluster_label_20,10,**Fraud Prevention and Dispute Resolution Violations**
+"Money transfer, virtual currency, or money service",cluster_label_20,24,**Fraud Prevention and Dispute‑Resolution Failures**
+"Money transfer, virtual currency, or money service",cluster_label_20,18,Inadequate Fraud Prevention and Dispute‑Resolution Practices​
+"Money transfer, virtual currency, or money service",cluster_label_20,8,**Fraud Prevention and Dispute Resolution Failures**
+"Money transfer, virtual currency, or money service",cluster_label_20,20,**Fraud Prevention and Dispute Resolution Failures**
+"Money transfer, virtual currency, or money service",cluster_label_20,35,**Fraud Prevention and Dispute Resolution Issues**
+"Money transfer, virtual currency, or money service",cluster_label_20,25,**Inadequate Fraud Prevention and Unfair Dispute Resolution**
+"Money transfer, virtual currency, or money service",cluster_label_20,40,**Fraud Prevention & Dispute Resolution Failure**
+"Money transfer, virtual currency, or money service",cluster_label_25,19,**Account Freeze & Funds Withholding Issues**
+"Money transfer, virtual currency, or money service",cluster_label_25,4,**Unfair Account Restrictions & Fraud Mishandling**
+"Money transfer, virtual currency, or money service",cluster_label_25,30,**Unexplained Account Freezes & Withheld Funds**
+"Money transfer, virtual currency, or money service",cluster_label_25,22,**Unauthorized Transaction & Fraud Issues**
+"Money transfer, virtual currency, or money service",cluster_label_25,11,**Unresolved Banking Disputes and Account Access Problems**
+"Money transfer, virtual currency, or money service",cluster_label_25,9,**Unresolved Fraud and Dispute Handling Failures**
+"Money transfer, virtual currency, or money service",cluster_label_25,2,**Financial Fraud & Unauthorized Transaction Disputes**
+"Money transfer, virtual currency, or money service",cluster_label_25,5,**Refund Requests for Unauthorized Payments**
+"Money transfer, virtual currency, or money service",cluster_label_25,27,**Digital Wallet Fund Access & Fraud Complaints**
+"Money transfer, virtual currency, or money service",cluster_label_25,0,**Unjust Account Restrictions & Holds**
+"Money transfer, virtual currency, or money service",cluster_label_25,3,**Unresolved Payment Disputes and Account Holds**
+"Money transfer, virtual currency, or money service",cluster_label_25,7,**Payment Disputes & Account Access Issues**
+"Money transfer, virtual currency, or money service",cluster_label_25,32,**Unauthorized Access & Fund Retrieval Issues**
+"Money transfer, virtual currency, or money service",cluster_label_25,8,**P2P Transfer Scams & Unresolved Errors**
+"Money transfer, virtual currency, or money service",cluster_label_25,16,**Payment Disputes & Unjust Account Restrictions**
+"Money transfer, virtual currency, or money service",cluster_label_25,12,**Unresolved Fraud & Unauthorized Transaction Complaints**
+"Money transfer, virtual currency, or money service",cluster_label_25,15,**Unauthorized Transfers & Account Compromise**
+"Money transfer, virtual currency, or money service",cluster_label_25,21,"**Zelle Fraud, Unauthorized Transfers & Service Failures**"
+"Money transfer, virtual currency, or money service",cluster_label_25,31,**Irreversible Peer‑to‑Peer Payment Fraud**
+"Money transfer, virtual currency, or money service",cluster_label_25,6,**Fraud Prevention & Dispute Resolution Failures**
+"Money transfer, virtual currency, or money service",cluster_label_25,26,**Inadequate Dispute Handling & Consumer Safety Risks**
+"Money transfer, virtual currency, or money service",cluster_label_25,28,**P2P Payment Misrouting & Refund Obstacles**
+"Money transfer, virtual currency, or money service",cluster_label_25,23,**Dispute Handling and Consumer Protection Failures**
+"Money transfer, virtual currency, or money service",cluster_label_25,14,Consumer Protection & Dispute‑Resolution Failures
+"Money transfer, virtual currency, or money service",cluster_label_25,13,**Dispute Resolution Failures**
+"Money transfer, virtual currency, or money service",cluster_label_25,1,"Weak Peer‑to‑Peer Payment Dispute Handling and Consumer Protection
+
+"
+"Money transfer, virtual currency, or money service",cluster_label_25,29,**Inadequate Fraud Protection & Dispute Resolution**
+"Money transfer, virtual currency, or money service",cluster_label_25,10,**Fraud Prevention and Dispute Resolution Failures**
+"Money transfer, virtual currency, or money service",cluster_label_25,24,**Deficient Fraud Prevention and Dispute Handling**
+"Money transfer, virtual currency, or money service",cluster_label_25,18,**Fraud Protection and Dispute Resolution Violations**
+"Money transfer, virtual currency, or money service",cluster_label_25,20,**Fraud Prevention and Dispute Resolution Violations**
+"Money transfer, virtual currency, or money service",cluster_label_25,17,**Failure to Prevent Fraud and Resolve Disputes**
+"Money transfer, virtual currency, or money service",cluster_label_25,25,Consumer Financial Protection Violations
+"Money transfer, virtual currency, or money service",cluster_label_30,19,**Account Freeze and Funds Withholding Issues**
+"Money transfer, virtual currency, or money service",cluster_label_30,1,**Payment Platform Fraud & Funds Withholding**
+"Money transfer, virtual currency, or money service",cluster_label_30,0,**Denied Fraud Disputes & Account Mismanagement**
+"Money transfer, virtual currency, or money service",cluster_label_30,22,**Unauthorized Transactions & Funds Misappropriation**
+"Money transfer, virtual currency, or money service",cluster_label_30,7,Unauthorized Transaction & Fraud Disputes
+"Money transfer, virtual currency, or money service",cluster_label_30,9,**Unresolved Fraudulent Transaction Dispute Failures**
+"Money transfer, virtual currency, or money service",cluster_label_30,11,Refund Requests for Unauthorized Transactions
+"Money transfer, virtual currency, or money service",cluster_label_30,8,**Unresolved Transaction Disputes and Fraud Claims**
+"Money transfer, virtual currency, or money service",cluster_label_30,5,Digital Wallet Account & Payment Disputes
+"Money transfer, virtual currency, or money service",cluster_label_30,3,**Irreversible Transfer Fraud**
+"Money transfer, virtual currency, or money service",cluster_label_30,16,**Account Lockouts & Unresolved Transaction Disputes**
+"Money transfer, virtual currency, or money service",cluster_label_30,15,**Unauthorized Transfers & Account Compromise**
+"Money transfer, virtual currency, or money service",cluster_label_30,6,**P2P Payment Scam & Irrecoverable Funds**
+"Money transfer, virtual currency, or money service",cluster_label_30,13,**Failure to Prevent Fraud and Resolve Disputes**
+"Money transfer, virtual currency, or money service",cluster_label_30,12,**Inadequate Dispute Handling and Consumer Safety Risks**
+"Money transfer, virtual currency, or money service",cluster_label_30,23,**Dispute Resolution Failures**
+"Money transfer, virtual currency, or money service",cluster_label_30,4,**Inadequate Dispute Resolution & Consumer Protection**
+"Money transfer, virtual currency, or money service",cluster_label_30,10,**P2P Payment Dispute & Fraud Concerns**
+"Money transfer, virtual currency, or money service",cluster_label_30,14,**Failure to Resolve Fraudulent Transactions**
+"Money transfer, virtual currency, or money service",cluster_label_30,21,Failure to Prevent Fraud and Resolve Disputes
+"Money transfer, virtual currency, or money service",cluster_label_30,2,**Fraud Protection and Dispute Resolution Failures**
+"Money transfer, virtual currency, or money service",cluster_label_30,18,**Consumer Financial Protection & Fraud Prevention Failures**
+"Money transfer, virtual currency, or money service",cluster_label_30,20,**Inadequate Fraud Prevention and Unfair Dispute Resolution**
+"Money transfer, virtual currency, or money service",cluster_label_30,17,Inadequate Fraud Prevention and Unfair Dispute Handling
+"Money transfer, virtual currency, or money service",cluster_label_35,19,**Frozen Account & Unreleased Funds**
+"Money transfer, virtual currency, or money service",cluster_label_35,1,**Unfair Fund Withholding & Fraud Response Failures**
+"Money transfer, virtual currency, or money service",cluster_label_35,5,**Unauthorized Transaction & Account Fraud Dispute Issues**
+"Money transfer, virtual currency, or money service",cluster_label_35,2,**Fraudulent Payments & Unauthorized Transfers**
+"Money transfer, virtual currency, or money service",cluster_label_35,7,**Fraudulent Transaction Dispute Issues**
+"Money transfer, virtual currency, or money service",cluster_label_35,9,**Fraudulent Transaction Dispute Failures**
+"Money transfer, virtual currency, or money service",cluster_label_35,8,**Digital Payment App Dispute & Fraud Resolution Failures**
+"Money transfer, virtual currency, or money service",cluster_label_35,12,**Payment App Account & Fraud Issues**
+"Money transfer, virtual currency, or money service",cluster_label_35,3,**Irreversible Money Transfer Fraud**
+"Money transfer, virtual currency, or money service",cluster_label_35,16,**Payment Disputes & Account Lockouts**
+"Money transfer, virtual currency, or money service",cluster_label_35,15,**Unauthorized Transfers & Account Compromise**
+"Money transfer, virtual currency, or money service",cluster_label_35,6,Irreversible Peer‑to‑Peer Transfer Scams
+"Money transfer, virtual currency, or money service",cluster_label_35,13,**Inadequate Fraud Protection & Dispute Resolution**
+"Money transfer, virtual currency, or money service",cluster_label_35,0,**Inadequate Dispute Handling & Consumer Safety Concerns**
+"Money transfer, virtual currency, or money service",cluster_label_35,4,**P2P Payment Dispute & Fraud Protection Issues**
+"Money transfer, virtual currency, or money service",cluster_label_35,14,**Insufficient Fraud Protection and Dispute Resolution**
+"Money transfer, virtual currency, or money service",cluster_label_35,10,**Fraud Protection and Dispute Resolution Violations**
+"Money transfer, virtual currency, or money service",cluster_label_35,11,Consumer Financial Protection Violations
+"Money transfer, virtual currency, or money service",cluster_label_35,18,**Consumer Financial Protection Violations**
+"Money transfer, virtual currency, or money service",cluster_label_35,20,**Fraud Prevention and Dispute‑Resolution Violations under Consumer Financial Protection**
+"Money transfer, virtual currency, or money service",cluster_label_35,17,**Deficient Fraud Protection & Dispute Resolution**
+"Money transfer, virtual currency, or money service",cluster_label_40,1,**Frozen Accounts & Withheld Funds**
+"Money transfer, virtual currency, or money service",cluster_label_40,4,**Payment Platform Fraud & Fund Withholding Complaints**
+"Money transfer, virtual currency, or money service",cluster_label_40,11,Fraudulent Money Transfers and Unauthorized Payments
+"Money transfer, virtual currency, or money service",cluster_label_40,6,**Unresolved Transfer & Fund‑Holding Complaints**
+"Money transfer, virtual currency, or money service",cluster_label_40,9,**Unauthorized Transaction Dispute Failures**
+"Money transfer, virtual currency, or money service",cluster_label_40,12,**Payment and Account Dispute Issues**
+"Money transfer, virtual currency, or money service",cluster_label_40,7,**Irrecoverable P2P Transfer Fraud**
+"Money transfer, virtual currency, or money service",cluster_label_40,0,**Unauthorized Transactions & Inadequate Dispute Handling**
+"Money transfer, virtual currency, or money service",cluster_label_40,15,**Unauthorized Transactions & Account Compromise**
+"Money transfer, virtual currency, or money service",cluster_label_40,13,**Irreversible Peer‑to‑Peer Payment Fraud**
+"Money transfer, virtual currency, or money service",cluster_label_40,3,**Inadequate Dispute Resolution & Consumer Safety Risks**
+"Money transfer, virtual currency, or money service",cluster_label_40,10,**Weak Consumer Safeguards & Dispute Resolution for Instant P2P Transfers**
+"Money transfer, virtual currency, or money service",cluster_label_40,14,Inadequate Fraud Protection & Dispute Resolution in P2P Payments
+"Money transfer, virtual currency, or money service",cluster_label_40,5,**Fraud Prevention and Dispute Resolution Failures**
+"Money transfer, virtual currency, or money service",cluster_label_40,2,**Fraud Prevention and Unfair Dispute Resolution Failures**
+"Money transfer, virtual currency, or money service",cluster_label_40,8,Inadequate Fraud Prevention and Dispute Resolution
+Checking or savings account,cluster_label_25,17,**Payment Processing & Transaction Dispute Issues**
+Checking or savings account,cluster_label_25,14,**Unauthorized Transaction Dispute & Claim Denial**
+Checking or savings account,cluster_label_25,15,**Locked Account & Unresolved Fraud Issues**
+Checking or savings account,cluster_label_25,9,**Account Freeze & Unauthorized Access Issues**
+Checking or savings account,cluster_label_25,8,**Bank Account Mismanagement and Dispute Handling Issues**
+Checking or savings account,cluster_label_25,32,Account Hijacking and Fraudulent Transactions
+Checking or savings account,cluster_label_25,31,**Unauthorized Transaction Dispute Failures**
+Checking or savings account,cluster_label_25,36,**Bank Account Closure & Unresolved Fraud Claims**
+Checking or savings account,cluster_label_25,26,**Account Lockout & Access Issues**
+Checking or savings account,cluster_label_25,4,**Improper Account Changes and Unauthorised Fund Handling**
+Checking or savings account,cluster_label_25,0,**Funds Access and Transaction Issues**
+Checking or savings account,cluster_label_25,20,**Unexplained Account Lockouts & Funds Withholding**
+Checking or savings account,cluster_label_25,6,**Fund Access Delays & Transparency Failures**
+Checking or savings account,cluster_label_25,10,**Frozen Account & Fraud Resolution Issues**
+Checking or savings account,cluster_label_25,1,**Improper Account Management & Fraud Disputes**
+Checking or savings account,cluster_label_25,35,**Unauthorized Transactions & Funds‑Hold Disputes**
+Checking or savings account,cluster_label_25,7,**Unexpected Overdraft Fees**
+Checking or savings account,cluster_label_25,30,**Banking Account Dispute and Access Issues**
+Checking or savings account,cluster_label_25,16,**Improper Account Freezes and Withholding of Funds**
+Checking or savings account,cluster_label_25,11,**Unauthorized Transaction & Account Fraud**
+Checking or savings account,cluster_label_25,28,**Bank Fraud & Unauthorized Transaction Handling Failures**
+Checking or savings account,cluster_label_25,24,**Account Closure & Funds Access Issues**
+Checking or savings account,cluster_label_25,5,Account Closure & Funds Access Issues
+Checking or savings account,cluster_label_25,34,**Unresolved Billing and Account Errors**
+Checking or savings account,cluster_label_25,33,Unjust Account Freeze & Closure Issues
+Checking or savings account,cluster_label_25,2,**Fraudulent Activity & Unfair Fee Disputes**
+Checking or savings account,cluster_label_25,13,Locked Account & Funds Access Issues
+Checking or savings account,cluster_label_25,21,**Payroll Direct‑Deposit System Outage**
+Checking or savings account,cluster_label_25,3,**Direct Deposit Delays & Missing Paychecks**
+Checking or savings account,cluster_label_25,12,**Improper Fraud Handling & Account Closure Complaints**
+Checking or savings account,cluster_label_25,22,**Missing Direct Deposit Delays**
+Checking or savings account,cluster_label_25,19,**Excessive Overdraft Fees**
+Checking or savings account,cluster_label_25,29,**Overdraft Fee Disputes & Account Closure Issues**
+Checking or savings account,cluster_label_25,38,**Unexpected Overdraft Fees**
+Checking or savings account,cluster_label_25,18,**Delayed Posting Overdraft Fee Dispute**
+Checking or savings account,cluster_label_25,37,Direct Deposit Not Received
+Checking or savings account,cluster_label_25,25,Direct Deposit Processing Failure (Potential EFTA Violation)
+Checking or savings account,cluster_label_25,27,Unfair Overdraft Fees from Delayed Posting
+Checking or savings account,cluster_label_25,23,Misleading High‑Yield Savings Account Advertising
+Checking or savings account,cluster_label_30,4,**Banking Transaction & Account Dispute Failures**
+Checking or savings account,cluster_label_30,14,**Fraud Dispute and Claim Denial**
+Checking or savings account,cluster_label_30,15,**Account Lockouts & Unresolved Fraud Disputes**
+Checking or savings account,cluster_label_30,19,**Account Lockout & Unauthorized Transaction Issues**
+Checking or savings account,cluster_label_30,5,**Funds Transfer & Receipt Issues**
+Checking or savings account,cluster_label_30,6,Improper Fund Withholding & Account Closure Issues
+Checking or savings account,cluster_label_30,17,Bank Account Closure & Fraud Dispute
+Checking or savings account,cluster_label_30,2,Account Lockouts & Unresolved Service Complaints
+Checking or savings account,cluster_label_30,9,**Unauthorized Transactions & Improper Account Handling**
+Checking or savings account,cluster_label_30,20,**Unexplained Account Closures and Funds Freeze**
+Checking or savings account,cluster_label_30,3,Consumer Banking Dispute & Access Failures
+Checking or savings account,cluster_label_30,12,**Unfair Account Holds and Dispute Denials**
+Checking or savings account,cluster_label_30,10,**Account Mismanagement & Fraud Dispute Issues**
+Checking or savings account,cluster_label_30,8,**Frozen Account & Funds Dispute Issues**
+Checking or savings account,cluster_label_30,0,**Improper Overdraft Charges & Mismanaged Account Balances**
+Checking or savings account,cluster_label_30,11,**Unauthorized Account Fraud**
+Checking or savings account,cluster_label_30,24,**Unjust Account Closure & Inaccessible Funds**
+Checking or savings account,cluster_label_30,7,**Overdraft and Unauthorized Transaction Issues**
+Checking or savings account,cluster_label_30,13,**Locked Accounts & Fraud Resolution Failures**
+Checking or savings account,cluster_label_30,21,**Payroll Direct‑Deposit System Outage**
+Checking or savings account,cluster_label_30,18,**Paycheck Direct‑Deposit Delays**
+Checking or savings account,cluster_label_30,22,**Direct Deposit Delays**
+Checking or savings account,cluster_label_30,16,**Unfair Overdraft Fee Practices**
+Checking or savings account,cluster_label_30,1,**Unfair Overdraft Fee and Account Management Practices**
+Checking or savings account,cluster_label_30,25,**Direct Deposit Processing Failure**
+Checking or savings account,cluster_label_30,23,**Deceptive Savings‑Account Interest Advertising**
+Checking or savings account,cluster_label_35,9,**Unresolved Banking Transaction Disputes**
+Checking or savings account,cluster_label_35,14,**Unauthorized Transaction Fraud**
+Checking or savings account,cluster_label_35,15,**Fraud‑Triggered Account Freeze and Unresolved Access Issues**
+Checking or savings account,cluster_label_35,19,**Account Access & Funds Restriction Issues**
+Checking or savings account,cluster_label_35,1,Improper Fund Withholding & Account Access Restrictions
+Checking or savings account,cluster_label_35,2,**Disputed Transactions and Unreturned Funds**
+Checking or savings account,cluster_label_35,17,**Account Closure & Disputed Funds**
+Checking or savings account,cluster_label_35,6,**Unauthorized Account Activity & Fraud**
+Checking or savings account,cluster_label_35,0,**Unjust Account Access Restrictions and Fund Holds**
+Checking or savings account,cluster_label_35,20,**Account Freeze & Funds Access Issues**
+Checking or savings account,cluster_label_35,3,**Banking Dispute & Fund Access Failures**
+Checking or savings account,cluster_label_35,10,**Unfair Account Practices & Fraud Dispute Handling**
+Checking or savings account,cluster_label_35,8,Account Freeze & Dispute Resolution Failures
+Checking or savings account,cluster_label_35,13,Improper Overdraft and Balance Management Practices
+Checking or savings account,cluster_label_35,5,**Digital Wallet Account & Transaction Issues**
+Checking or savings account,cluster_label_35,7,Overdraft and Unauthorized Withdrawal Issues
+Checking or savings account,cluster_label_35,18,**Direct Deposit Processing Delays**
+Checking or savings account,cluster_label_35,16,**Excessive Overdraft Fees**
+Checking or savings account,cluster_label_35,4,**Improper Overdraft Fee Practices**
+Checking or savings account,cluster_label_35,12,**Direct Deposit Processing Failure**
+Checking or savings account,cluster_label_35,11,**Deceptive High‑Yield Savings Account Marketing**
+Checking or savings account,cluster_label_40,9,**Bank Transaction and Account Dispute Issues**
+Checking or savings account,cluster_label_40,14,**Fraudulent Transaction Disputes and Unresolved Claims**
+Checking or savings account,cluster_label_40,15,**Unjust Account Lockouts & Unresolved Funds Holds**
+Checking or savings account,cluster_label_40,2,**Unauthorized Transactions & Account Access Issues**
+Checking or savings account,cluster_label_40,3,**Account Holds & Unavailable Funds**
+Checking or savings account,cluster_label_40,1,**Fraud‑Related Account Lockouts & Dispute Handling Failures**
+Checking or savings account,cluster_label_40,17,**Account Closure & Unresolved Funds**
+Checking or savings account,cluster_label_40,0,**Banking Service & Fraud Dispute Issues**
+Checking or savings account,cluster_label_40,6,**Unexplained Account Lockouts and Access Restrictions**
+Checking or savings account,cluster_label_40,7,**Bank Account Transaction Disputes & Service Failures**
+Checking or savings account,cluster_label_40,10,**Unfair Account Practices & Fraud Disputes**
+Checking or savings account,cluster_label_40,13,Improper Overdraft Fees and Balance Management Practices
+Checking or savings account,cluster_label_40,5,**Digital Wallet Account Access & Dispute Issues**
+Checking or savings account,cluster_label_40,8,Direct Deposit Delays and Missing Funds
+Checking or savings account,cluster_label_40,16,Unfair Overdraft Fee Practices
+Checking or savings account,cluster_label_40,4,**Unfair Banking Practices**
+Checking or savings account,cluster_label_40,12,Direct Deposit Processing Failure
+Checking or savings account,cluster_label_40,11,**Deceptive Savings Account Marketing**
+Credit card,cluster_label_20,13,**Unauthorized Credit Account Fraud**
+Credit card,cluster_label_20,9,**Unauthorized or Fraudulent Credit Account Dispute**
+Credit card,cluster_label_20,6,**Deceptive Credit Card Practices**
+Credit card,cluster_label_20,30,**Unfair Treatment of Cardholder Accounts**
+Credit card,cluster_label_20,10,**Credit Card Billing Disputes**
+Credit card,cluster_label_20,0,**Credit Account Dispute & Mismanagement Issues**
+Credit card,cluster_label_20,15,**Consumer Billing & Credit Dispute Issues**
+Credit card,cluster_label_20,17,**Credit Card Account Mismanagement and Billing Disputes**
+Credit card,cluster_label_20,11,**Ineffective Dispute Resolution & Fraud Response**
+Credit card,cluster_label_20,2,**Credit Card Dispute & Service Issues**
+Credit card,cluster_label_20,14,**Credit Card Billing & Dispute Errors**
+Credit card,cluster_label_20,24,**Credit Card Account Management Issues**
+Credit card,cluster_label_20,12,**Unfair Financial Services Practices**
+Credit card,cluster_label_20,8,**Credit Card Account Problems**
+Credit card,cluster_label_20,28,**Unauthorized Activity and Unfair Account Handling**
+Credit card,cluster_label_20,3,**Credit Card Account Dispute**
+Credit card,cluster_label_20,7,"**Credit Card Fraud, Unfair Fees, and Improper Account Handling**"
+Credit card,cluster_label_20,27,**Credit Card Account Disputes**
+Credit card,cluster_label_20,4,Credit Card Service & Dispute Issues
+Credit card,cluster_label_20,23,**Account Access and Refund Failures**
+Credit card,cluster_label_20,5,**Unauthorized or Erroneous Credit Card Charges**
+Credit card,cluster_label_20,25,**Account Dispute & Unauthorized Activity**
+Credit card,cluster_label_20,1,**Credit Card Billing & Account Dispute Issues**
+Credit card,cluster_label_20,20,**Unauthorized Charges & Fraudulent Account Disputes**
+Credit card,cluster_label_20,21,**Fraudulent Charges & Inadequate Dispute Support**
+Credit card,cluster_label_20,18,**Unauthorized Account Activity and Credit Harm**
+Credit card,cluster_label_20,31,**High Interest & Fees**
+Credit card,cluster_label_20,26,**Unauthorized Credit Card Activity**
+Credit card,cluster_label_20,22,**Identity Theft & Unauthorized Account Claims**
+Credit card,cluster_label_20,19,Missing or Incorrect 1099‑C for Charged‑Off Debt Reporting Issues
+Credit card,cluster_label_20,16,**Credit Card Account Dispute & Management Complaints**
+Credit card,cluster_label_20,29,**Improper Account Closures and Unwarranted Fees**
+Credit card,cluster_label_25,0,**Unauthorized Transactions & Account Fraud**
+Credit card,cluster_label_25,3,**Credit Card Dispute & Fraud Resolution Issues**
+Credit card,cluster_label_25,6,**Deceptive Credit Card Practices**
+Credit card,cluster_label_25,15,**Unfair Credit Card Practices**
+Credit card,cluster_label_25,4,**Payment and Billing Dispute Issues**
+Credit card,cluster_label_25,9,**Financial Account Dispute & Service Failure**
+Credit card,cluster_label_25,17,**Credit Card Account Dispute Issues**
+Credit card,cluster_label_25,11,**Unresolved Fraudulent Charge & Refund Dispute Issues**
+Credit card,cluster_label_25,5,**Cardholder Credit & Billing Disputes**
+Credit card,cluster_label_25,14,**Billing and Credit Reporting Disputes**
+Credit card,cluster_label_25,7,Banking Service and Fraud Complaints
+Credit card,cluster_label_25,18,**Credit Card Service & Fraud Mishandling**
+Credit card,cluster_label_25,13,**Unauthorized Activity & Unfair Account Treatment**
+Credit card,cluster_label_25,8,**Billing Errors & Unauthorized Account Activity**
+Credit card,cluster_label_25,2,**Credit Card Dispute & Fraud Handling Failures**
+Credit card,cluster_label_25,10,Credit Card Account Management Issues
+Credit card,cluster_label_25,12,**Account Dispute & Unauthorized Activity**
+Credit card,cluster_label_25,1,**Credit Card Fraud and Account Disputes**
+Credit card,cluster_label_25,19,**1099‑C Disputes for Charged‑Off Debt**
+Credit card,cluster_label_25,16,**Credit Card Dispute & Account Management Complaints**
+Credit card,cluster_label_30,0,**Fraudulent Account Activity & Dispute Resolution Failures**
+Credit card,cluster_label_30,3,**Unfair Financial Service Practices**
+Credit card,cluster_label_30,6,**Unfair Credit Card and Banking Practices**
+Credit card,cluster_label_30,2,**Credit Card Billing and Account Dispute Issues**
+Credit card,cluster_label_30,4,**Credit Card Account Issues**
+Credit card,cluster_label_30,1,Unauthorized Credit Activity & Billing Disputes
+Credit card,cluster_label_30,11,**Faulty Dispute and Fraud Investigation Processes**
+Credit card,cluster_label_30,5,**Credit Card Account Disputes & Credit‑Related Issues**
+Credit card,cluster_label_30,7,Unauthorized Account Activity & Poor Dispute Handling
+Credit card,cluster_label_30,8,**Disputed Charges & Improper Account Handling**
+Credit card,cluster_label_30,10,Credit Card Account Issues
+Credit card,cluster_label_30,12,**Account Errors & Unauthorized Activity**
+Credit card,cluster_label_30,9,**Credit Card Account Issues**
+Credit card,cluster_label_35,4,**Unauthorized Account Activity & Dispute Resolution Failures**
+Credit card,cluster_label_35,3,**Unfair Financial Service Practices and Account Mismanagement**
+Credit card,cluster_label_35,6,**Deceptive Credit Card Practices**
+Credit card,cluster_label_35,2,**Credit Card Billing Disputes and Unfair Account Practices**
+Credit card,cluster_label_35,0,**Credit Card & Account Service Issues**
+Credit card,cluster_label_35,9,**Unauthorized Credit Activity & Account Errors**
+Credit card,cluster_label_35,5,**Unresolved Fraud & Dispute Handling Complaints**
+Credit card,cluster_label_35,7,Improper Account Handling & Fraud‑Related Complaints
+Credit card,cluster_label_35,8,Credit Card Account Dispute & Fraud Issues
+Credit card,cluster_label_35,1,**Credit Card Account Issues**
+Credit card,cluster_label_40,0,**Unauthorized Card Activity & Dispute Handling Issues**
+Credit card,cluster_label_40,3,Financial Service Account Mismanagement Complaints
+Credit card,cluster_label_40,6,**Deceptive Financial Services Practices**
+Credit card,cluster_label_40,2,**Credit Card Account Abuse and Dispute Failures**
+Credit card,cluster_label_40,4,**Unauthorized Credit Activity & Billing Disputes**
+Credit card,cluster_label_40,5,**Ineffective Dispute Handling and Fraud Exposure**
+Credit card,cluster_label_40,7,**Improper Account Handling & Fraud Issues**
+Credit card,cluster_label_40,8,**Unauthorized Charges & Account Mismanagement**
+Credit card,cluster_label_40,1,**Credit Card Account Disputes**
+Credit reporting or other personal consumer reports,cluster_label_20,17,**Credit Reporting Errors & FCRA Violations**
+Credit reporting or other personal consumer reports,cluster_label_20,0,**Unauthorized Credit Inquiries and Inaccurate Reporting**
+Credit reporting or other personal consumer reports,cluster_label_20,18,**Credit Reporting Errors & Account Dispute Issues**
+Credit reporting or other personal consumer reports,cluster_label_20,31,**Unauthorized Credit Inquiries & Reporting Errors**
+Credit reporting or other personal consumer reports,cluster_label_20,15,**Credit Reporting Accuracy Violations**
+Credit reporting or other personal consumer reports,cluster_label_20,34,**Credit Reporting Disputes**
+Credit reporting or other personal consumer reports,cluster_label_20,33,**False or Inaccurate Credit Reporting**
+Credit reporting or other personal consumer reports,cluster_label_20,2,Unauthorized Account & Credit Report Errors
+Credit reporting or other personal consumer reports,cluster_label_20,3,**Identity Theft & Unauthorized Credit Accounts**
+Credit reporting or other personal consumer reports,cluster_label_20,25,**Credit Reporting Disputes**
+Credit reporting or other personal consumer reports,cluster_label_20,1,**Unauthorized Credit Pulls & Identity Theft**
+Credit reporting or other personal consumer reports,cluster_label_20,11,**Credit Report Inaccuracy Dispute**
+Credit reporting or other personal consumer reports,cluster_label_20,14,**Credit Fraud & Inaccurate Reporting**
+Credit reporting or other personal consumer reports,cluster_label_20,8,**Credit Report Inaccuracy Disputes**
+Credit reporting or other personal consumer reports,cluster_label_20,24,Unauthorized/Inaccurate Credit Report Entries
+Credit reporting or other personal consumer reports,cluster_label_20,16,**Unauthorized Credit Accounts & Inquiries**
+Credit reporting or other personal consumer reports,cluster_label_20,35,**Inaccurate Credit Reporting Disputes**
+Credit reporting or other personal consumer reports,cluster_label_20,6,**Credit Reporting Errors & Fraudulent Account Disputes**
+Credit reporting or other personal consumer reports,cluster_label_20,12,**Unauthorized Credit Reporting Errors**
+Credit reporting or other personal consumer reports,cluster_label_20,7,**Unauthorized Credit Report Entries**
+Credit reporting or other personal consumer reports,cluster_label_20,10,**FCRA Violations – Inaccurate Credit Reporting & Dispute Mishandling**
+Credit reporting or other personal consumer reports,cluster_label_20,22,**Credit Report Fraud & Unauthorized Inquiry Disputes**
+Credit reporting or other personal consumer reports,cluster_label_20,13,**Credit Reporting Errors & Dispute Mishandling**
+Credit reporting or other personal consumer reports,cluster_label_20,28,**Unauthorized Credit Inquiries**
+Credit reporting or other personal consumer reports,cluster_label_20,5,**FCRA Credit Reporting Dispute**
+Credit reporting or other personal consumer reports,cluster_label_20,9,Missing 1099‑C Documentation for Charged‑Off Accounts
+Credit reporting or other personal consumer reports,cluster_label_20,4,**Unauthorized Credit Inquiries & Inaccurate Reporting**
+Credit reporting or other personal consumer reports,cluster_label_20,30,**Inaccurate Late‑Payment Reporting on Credit Reports**
+Credit reporting or other personal consumer reports,cluster_label_20,26,**Inaccurate Credit Reporting Disputes**
+Credit reporting or other personal consumer reports,cluster_label_20,21,**Negative Credit Rating Impact**
+Credit reporting or other personal consumer reports,cluster_label_20,32,**Inaccurate Credit Reporting and Unauthorized Charge‑Off Entries**
+Credit reporting or other personal consumer reports,cluster_label_20,29,**Unauthorized Hard Credit Inquiries**
+Credit reporting or other personal consumer reports,cluster_label_20,19,**FCRA Rights Violation Complaint**
+Credit reporting or other personal consumer reports,cluster_label_20,20,**Abusive Debt Collection (FDCPA) Violations**
+Credit reporting or other personal consumer reports,cluster_label_20,23,**Unauthorized Credit Report Item Dispute**
+Credit reporting or other personal consumer reports,cluster_label_20,27,Unresolved Credit Card Statement Dispute and Lack of Response​
+Credit reporting or other personal consumer reports,cluster_label_25,8,**Credit Reporting Accuracy Disputes**
+Credit reporting or other personal consumer reports,cluster_label_25,1,**Unauthorized Credit Reporting & Identity Theft**
+Credit reporting or other personal consumer reports,cluster_label_25,18,**Credit Reporting Inaccuracies and Unauthorized Account Handling**
+Credit reporting or other personal consumer reports,cluster_label_25,3,**Invalid Credit Report Entries & Unauthorized Inquiries**
+Credit reporting or other personal consumer reports,cluster_label_25,15,**FCRA Credit‑Reporting Violation Disputes**
+Credit reporting or other personal consumer reports,cluster_label_25,2,Inaccurate Credit Reporting & Unauthorized Account Disputes
+Credit reporting or other personal consumer reports,cluster_label_25,7,**Unauthorized Account & Identity Theft Fraud**
+Credit reporting or other personal consumer reports,cluster_label_25,4,**Credit Report Inaccuracy Dispute**
+Credit reporting or other personal consumer reports,cluster_label_25,5,**Identity Theft & Unauthorized Credit Activity**
+Credit reporting or other personal consumer reports,cluster_label_25,0,**Unauthorized Credit Fraud & Identity Theft**
+Credit reporting or other personal consumer reports,cluster_label_25,16,**Unauthorized Credit Reporting Errors**
+Credit reporting or other personal consumer reports,cluster_label_25,17,**Credit Reporting Errors and Disputes**
+Credit reporting or other personal consumer reports,cluster_label_25,13,**Unauthorized/Fraudulent Credit Reporting Disputes**
+Credit reporting or other personal consumer reports,cluster_label_25,10,**Credit Reporting Accuracy Violations**
+Credit reporting or other personal consumer reports,cluster_label_25,22,**Unauthorized Credit Report Disputes**
+Credit reporting or other personal consumer reports,cluster_label_25,6,**Incorrect Late Payment Reporting**
+Credit reporting or other personal consumer reports,cluster_label_25,9,Missing or Unprovided 1099‑C for Charged‑Off Debt​
+Credit reporting or other personal consumer reports,cluster_label_25,12,**Credit Report Inaccuracies & Unauthorized Activity**
+Credit reporting or other personal consumer reports,cluster_label_25,21,Derogatory Credit Rating Impact
+Credit reporting or other personal consumer reports,cluster_label_25,14,**Unauthorized Hard Credit Inquiries**
+Credit reporting or other personal consumer reports,cluster_label_25,19,**FCRA Rights Violation Complaint**
+Credit reporting or other personal consumer reports,cluster_label_25,20,**Debt Collector FDCPA Violations**
+Credit reporting or other personal consumer reports,cluster_label_25,11,**Unauthorized Credit Report Entries – FCRA Dispute**
+Credit reporting or other personal consumer reports,cluster_label_30,3,**Credit Reporting & FCRA Violations**
+Credit reporting or other personal consumer reports,cluster_label_30,0,**Unauthorized Credit Reporting Errors**
+Credit reporting or other personal consumer reports,cluster_label_30,1,**Credit Reporting Disputes**
+Credit reporting or other personal consumer reports,cluster_label_30,17,**Disputed Credit Reporting Errors**
+Credit reporting or other personal consumer reports,cluster_label_30,15,**Credit Reporting Errors & FCRA Violations**
+Credit reporting or other personal consumer reports,cluster_label_30,8,**Inaccurate Credit Reporting & Unresolved Dispute Issues**
+Credit reporting or other personal consumer reports,cluster_label_30,7,**Identity Theft & Unauthorized Account Activity**
+Credit reporting or other personal consumer reports,cluster_label_30,4,**Dispute of Inaccurate Credit Reporting**
+Credit reporting or other personal consumer reports,cluster_label_30,5,**Identity Theft & Unauthorized Credit Inquiries**
+Credit reporting or other personal consumer reports,cluster_label_30,2,**Fraudulent Account and Credit Inquiry Disputes**
+Credit reporting or other personal consumer reports,cluster_label_30,16,**Unauthorized Credit Report Entries & Disputed Hard Inquiries**
+Credit reporting or other personal consumer reports,cluster_label_30,13,**Credit Report Errors & Fraudulent Account Disputes**
+Credit reporting or other personal consumer reports,cluster_label_30,6,Incorrect Late Payment Reporting
+Credit reporting or other personal consumer reports,cluster_label_30,12,**Disputed Unauthorized Credit Reporting**
+Credit reporting or other personal consumer reports,cluster_label_30,10,Negative Credit Rating Impact
+Credit reporting or other personal consumer reports,cluster_label_30,14,**Unauthorized Hard Credit Inquiries**
+Credit reporting or other personal consumer reports,cluster_label_30,9,**Fair Credit Reporting Act Violation**
+Credit reporting or other personal consumer reports,cluster_label_30,11,**FCRA Credit Report Dispute Claims**
+Credit reporting or other personal consumer reports,cluster_label_35,3,**Improper Credit Reporting & Consumer Rights Violations**
+Credit reporting or other personal consumer reports,cluster_label_35,0,**Unauthorized Credit Report Entries & Inquiries**
+Credit reporting or other personal consumer reports,cluster_label_35,4,**Unauthorized Credit Inquiries and Fraudulent Identity‑Theft Activity**
+Credit reporting or other personal consumer reports,cluster_label_35,7,**Inaccurate Credit Reporting Disputes**
+Credit reporting or other personal consumer reports,cluster_label_35,8,Credit Reporting Errors & Dispute Failures
+Credit reporting or other personal consumer reports,cluster_label_35,2,**Credit Report Errors & Fraud Remediation**
+Credit reporting or other personal consumer reports,cluster_label_35,1,**Credit Report Error Dispute**
+Credit reporting or other personal consumer reports,cluster_label_35,5,**Fraudulent Account & Unauthorized Credit Inquiry Disputes**
+Credit reporting or other personal consumer reports,cluster_label_35,6,**Credit Report Inaccuracies & Fraudulent Entries**
+Credit reporting or other personal consumer reports,cluster_label_35,10,**Negative Credit Rating Impact**
+Credit reporting or other personal consumer reports,cluster_label_35,9,**FCRA Violation Complaint**
+Credit reporting or other personal consumer reports,cluster_label_35,11,**Consumer Report Dispute – Identity Theft & FCRA Violation**
+Credit reporting or other personal consumer reports,cluster_label_40,3,**Credit Reporting Errors & FCRA Violations**
+Credit reporting or other personal consumer reports,cluster_label_40,2,**Unauthorized Credit Inquiries and Inaccurate Credit Reporting**
+Credit reporting or other personal consumer reports,cluster_label_40,1,**Credit Reporting Disputes & Fraudulent Account Issues**
+Credit reporting or other personal consumer reports,cluster_label_40,7,**Credit Reporting Inaccuracies & FCRA Violation Disputes**
+Credit reporting or other personal consumer reports,cluster_label_40,0,**Credit Reporting Errors & Fraud Disputes**
+Credit reporting or other personal consumer reports,cluster_label_40,6,"Credit Report Inaccuracies & Identity Theft
+
+"
+Credit reporting or other personal consumer reports,cluster_label_40,5,**Identity Theft & Fraudulent Account Disputes**
+Credit reporting or other personal consumer reports,cluster_label_40,4,Credit Reporting Errors & Unauthorized Account Disputes
+Debt collection,cluster_label_10,5,**Inaccurate Credit Report Dispute & Cease‑and‑Desist Requests**
+Debt collection,cluster_label_10,10,**Debt Validation & Credit Reporting Dispute Requests**
+Debt collection,cluster_label_10,4,**Debt Validation and Credit Reporting Dispute Complaints**
+Debt collection,cluster_label_10,23,**Credit Report Inaccuracy Dispute**
+Debt collection,cluster_label_10,41,**Improper Debt Collection Practices**
+Debt collection,cluster_label_10,40,**Debt Collection Harassment & Fraudulent Credit Claims**
+Debt collection,cluster_label_10,36,**Consumer Debt Dispute & Validation Claims**
+Debt collection,cluster_label_10,1,Unauthorized Debt & Credit Reporting Abuse
+Debt collection,cluster_label_10,44,**Payment‑platform phishing and unauthorized‑charge scams**
+Debt collection,cluster_label_10,17,**Inaccurate Credit Reporting & Dispute Resolution Issues**
+Debt collection,cluster_label_10,14,**FCRA‑Based Credit Report Dispute & Verification Requests**
+Debt collection,cluster_label_10,18,**Consumer Debt Collection Abuse**
+Debt collection,cluster_label_10,29,**Disputed Unauthorized Charges and Identity Theft**
+Debt collection,cluster_label_10,33,Inaccurate Reporting of Unauthorized Credit Card Accounts
+Debt collection,cluster_label_10,47,**Identity Theft & Fraudulent Account Disputes**
+Debt collection,cluster_label_10,8,**Improper Debt Collection & Credit Reporting Practices**
+Debt collection,cluster_label_10,0,**Credit Reporting and Debt Dispute Complaints**
+Debt collection,cluster_label_10,27,**Credit Reporting Disputes & Account Errors**
+Debt collection,cluster_label_10,37,**Identity Theft – Unauthorized Credit Accounts**
+Debt collection,cluster_label_10,6,**Improper Debt Collection Practices**
+Debt collection,cluster_label_10,32,**Improper Debt Collection & Account Abuse**
+Debt collection,cluster_label_10,19,**Improper Debt Collection Practices**
+Debt collection,cluster_label_10,13,Illicit Debt Collection & Identity Theft Complaint
+Debt collection,cluster_label_10,46,**Improper Debt Collection Practices**
+Debt collection,cluster_label_10,34,Fraudulent Debt‑Collection Impersonation & Harassment
+Debt collection,cluster_label_10,26,**Identity Theft Resulting from Data Breaches**
+Debt collection,cluster_label_10,39,**Fraudulent Account Dispute**
+Debt collection,cluster_label_10,42,**Debt Validation & Credit Reporting Disputes**
+Debt collection,cluster_label_10,2,**Credit Account Dispute & Reporting Errors**
+Debt collection,cluster_label_10,24,Unauthorized Credit Account Disputes
+Debt collection,cluster_label_10,35,Identity Theft – Unauthorized Credit Accounts​
+Debt collection,cluster_label_10,25,Credit Card Debt Collection and Credit Reporting Disputes
+Debt collection,cluster_label_10,22,**Unauthorized Debt Collection Practices**
+Debt collection,cluster_label_10,15,**Identity Theft & Fraudulent Account Removal**
+Debt collection,cluster_label_10,20,**Credit Card Fraud & Disputed Debt Resolution**
+Debt collection,cluster_label_10,3,Missing 1099‑C Cancellation‑of‑Debt Forms for Charged‑Off Accounts
+Debt collection,cluster_label_10,16,Excessive Phone Call Harassment
+Debt collection,cluster_label_10,9,**Credit Report Errors & Dispute Issues**
+Debt collection,cluster_label_10,11,Identity Theft & Fraudulent Account Abuse
+Debt collection,cluster_label_10,12,**Account Management & Transaction Dispute Issues**
+Debt collection,cluster_label_10,21,**Identity Theft & Fraudulent Account Activity**
+Debt collection,cluster_label_10,7,**Improper/Unverified Debt Collection Practices**
+Debt collection,cluster_label_10,30,**Aggressive Debt‑Collection Harassment**
+Debt collection,cluster_label_10,45,Missing or Unreceived 1099‑C After Debt Charge‑Off
+Debt collection,cluster_label_10,28,**Aggressive Debt Collection Harassment**
+Debt collection,cluster_label_10,38,**Inaccurate Credit Reporting & Disputed Charge‑Off Entries**
+Debt collection,cluster_label_10,31,**Demand for Verified Data and Claim Removal**
+Debt collection,cluster_label_10,43,**Unverified Debt Dispute & Certified‑Mail Request**
+Debt collection,cluster_label_15,4,Debt Collection Harassment & Fraud Claims
+Debt collection,cluster_label_15,6,**Consumer Debt Validation & Credit Reporting Complaints**
+Debt collection,cluster_label_15,5,**Debt Collection & Credit Reporting Disputes**
+Debt collection,cluster_label_15,3,**Financial Account Reporting & Dispute Complaints**
+Debt collection,cluster_label_15,1,**Improper Debt Collection & Credit Reporting Practices**
+Debt collection,cluster_label_15,17,**Inaccurate Credit Reporting and Fraudulent Account Disputes**
+Debt collection,cluster_label_15,0,**Improper Debt Collection Practices**
+Debt collection,cluster_label_15,2,**Unauthorized Credit Report Entries**
+Debt collection,cluster_label_15,7,**Credit Reporting Errors and Fraudulent Account Disputes**
+Debt collection,cluster_label_15,8,**Disputed Credit Reporting Errors**
+Debt collection,cluster_label_15,9,**Fraudulent Accounts and Unauthorized Debt**
+Debt collection,cluster_label_15,14,Unauthorized Account and Debt Collection Fraud
+Debt collection,cluster_label_15,13,**Consumer Credit Account Dispute & Reporting Errors**
+Debt collection,cluster_label_15,12,**Credit Card Debt & Reporting Disputes**
+Debt collection,cluster_label_15,11,**Improper Debt Collection & Account Dispute Practices**
+Debt collection,cluster_label_15,16,**Excessive Call Harassment**
+Debt collection,cluster_label_15,10,Missing 1099‑C for Charged‑Off Debt
+Debt collection,cluster_label_15,15,**Demand for Proof and Legal Compliance**
+Debt collection,cluster_label_20,2,**Inaccurate Credit Reporting & Debt Collection Disputes**
+Debt collection,cluster_label_20,1,Credit Reporting & Debt Validation Disputes
+Debt collection,cluster_label_20,5,**Improper Debt Collection and Credit Reporting Practices**
+Debt collection,cluster_label_20,4,**Improper Debt Collection Practices**
+Debt collection,cluster_label_20,3,Improper Debt Collection & Credit Reporting Abuse
+Debt collection,cluster_label_20,8,**Credit Reporting Errors & Fraudulent Account Disputes**
+Debt collection,cluster_label_20,0,**Disputed Debt Verification Requests**
+Debt collection,cluster_label_20,6,**Unauthorized Credit Account Dispute**
+Debt collection,cluster_label_20,7,**Unauthorized Credit Reporting and Debt Dispute Abuse**
+Debt collection,cluster_label_20,9,**Identity‑Theft‑Related Fraudulent Debt and Credit Disputes**
+Debt collection,cluster_label_25,0,**Unauthorized Debt Collection & Credit Reporting Disputes**
+Debt collection,cluster_label_25,2,**Fraudulent Account & Identity‑Theft Disputes**
+Debt collection,cluster_label_25,1,**Credit Reporting Inaccuracy & Fraud Dispute**
+Debt collection,cluster_label_25,4,**Improper Debt Collection Practices**
+Debt collection,cluster_label_25,5,**Identity Theft & Credit Fraud**
+Debt collection,cluster_label_25,3,**FCRA‑Related Credit and Debt Dispute Complaints**
+Debt collection,cluster_label_30,0,Improper Debt Collection & Credit Reporting Disputes
+Debt collection,cluster_label_30,2,**Unauthorized Account & Consumer Rights Disputes**
+Debt collection,cluster_label_30,1,**Consumer Credit Reporting & Debt Collection Dispute**
+Debt collection,cluster_label_30,4,**Improper/Fraudulent Debt Collection Practices**
+Debt collection,cluster_label_30,5,**Identity Theft & Fraudulent Credit Reporting**
+Debt collection,cluster_label_30,3,**Consumer Credit Reporting and Debt Dispute Violations**
+Debt collection,cluster_label_35,0,Debt Collection Abuse​
+Debt collection,cluster_label_35,2,**Unauthorized Credit Account & Identity‑Theft Disputes**
+Debt collection,cluster_label_35,1,**Credit Reporting & Fraudulent Debt Dispute**
+Debt collection,cluster_label_35,4,**Improper Debt Collection Practices**
+Debt collection,cluster_label_35,3,**Consumer Credit Reporting & Debt Dispute Complaints**
+Debt collection,cluster_label_40,2,**Debt Collection Abuse**
+Debt collection,cluster_label_40,1,**Fraudulent Debt Collection Practices**
+Debt collection,cluster_label_40,0,**Consumer Credit and Debt Dispute Claims**
+Vehicle loan or lease,cluster_label_10,8,**Automotive Financing Abuse**
+Vehicle loan or lease,cluster_label_10,7,**Auto Loan Servicing & Credit Reporting Misconduct**
+Vehicle loan or lease,cluster_label_10,4,**Automotive Loan & Ownership Issues**
+Vehicle loan or lease,cluster_label_10,13,Unfair Loan Servicing and Asset Seizure Practices
+Vehicle loan or lease,cluster_label_10,9,**Predatory Auto Financing and Repossession Abuse**
+Vehicle loan or lease,cluster_label_10,3,**Auto Loan Servicing Disputes**
+Vehicle loan or lease,cluster_label_10,5,**Lending and Debt Service Complaints**
+Vehicle loan or lease,cluster_label_10,10,**Auto Financing Disputes & Fraud**
+Vehicle loan or lease,cluster_label_10,0,**Loan Servicing & Credit Reporting Issues**
+Vehicle loan or lease,cluster_label_10,12,**Vehicle Loan Servicing & Credit Reporting Issues**
+Vehicle loan or lease,cluster_label_10,2,Vehicle Sale & Financing Fraud Issues
+Vehicle loan or lease,cluster_label_10,1,**Auto Loan Servicing Disputes**
+Vehicle loan or lease,cluster_label_10,6,**Credit Reporting Disputes**
+Vehicle loan or lease,cluster_label_10,11,**Auto Loan Mismanagement & Unlawful Repossession**
+Vehicle loan or lease,cluster_label_15,1,**Auto Loan Abuse**
+Vehicle loan or lease,cluster_label_15,3,**Consumer Harm from Financial Institution Misconduct**
+Vehicle loan or lease,cluster_label_15,6,**Automotive Financing Consumer Disputes**
+Vehicle loan or lease,cluster_label_15,2,**Auto Loan Servicing Disputes**
+Vehicle loan or lease,cluster_label_15,0,**Loan Servicing & Credit Dispute Issues**
+Vehicle loan or lease,cluster_label_15,5,**Consumer Auto Loan Abuse**
+Vehicle loan or lease,cluster_label_15,4,**Credit Reporting Errors & Loan Dispute Issues**
+Vehicle loan or lease,cluster_label_20,1,**Auto Loan Abuse**
+Vehicle loan or lease,cluster_label_20,3,**Auto Loan Servicing & Credit Reporting Abuse**
+Vehicle loan or lease,cluster_label_20,0,**Auto Loan Misconduct and Predatory Practices**
+Vehicle loan or lease,cluster_label_20,2,**Auto Loan Servicing Issues**
+Vehicle loan or lease,cluster_label_20,4,Credit Reporting Disputes
+Vehicle loan or lease,cluster_label_25,0,**Deceptive Auto Financing and Improper Repossession Practices**
+Vehicle loan or lease,cluster_label_25,2,**Deceptive and Predatory Auto Loan Practices**
+Vehicle loan or lease,cluster_label_25,1,**Auto Loan Credit Reporting Disputes**
+Vehicle loan or lease,cluster_label_30,0,**Deceptive Vehicle Financing and Repossession Practices**
+Vehicle loan or lease,cluster_label_30,2,Auto Loan Abuse & Servicing Failures
+Vehicle loan or lease,cluster_label_30,1,**Auto Loan Credit Reporting Disputes**
+Vehicle loan or lease,cluster_label_35,0,**Deceptive Auto Loan & GAP Insurance Practices**
+Vehicle loan or lease,cluster_label_35,2,**Auto Loan Misconduct & Predatory Practices**
+Vehicle loan or lease,cluster_label_35,1,**Auto Loan Credit Dispute Issues**
+Vehicle loan or lease,cluster_label_40,0,**Deceptive Auto Financing and Gap‑Insurance Practices**
+Vehicle loan or lease,cluster_label_40,2,**Deceptive Auto Loan Practices**
+Vehicle loan or lease,cluster_label_40,1,Auto Loan Credit Reporting Disputes
+Prepaid card,cluster_label_10,9,**Unauthorized Transaction & Missing Funds Dispute**
+Prepaid card,cluster_label_10,5,**Amex Gift Card Usage Failures**
+Prepaid card,cluster_label_10,2,**Unauthorized Transactions & Dispute Mishandling**
+Prepaid card,cluster_label_10,11,Prepaid Gift Card Decline & Access Issues
+Prepaid card,cluster_label_10,10,**Opaque Account Suspensions & Unresponsive Support**
+Prepaid card,cluster_label_10,12,**Prepaid Card Access & Dispute Mishandling**
+Prepaid card,cluster_label_10,1,**Card fraud and disputed charge resolution**
+Prepaid card,cluster_label_10,0,Gift Card Activation & Decline Problems
+Prepaid card,cluster_label_10,7,**Unreasonable Account Freezes and Funds Withholding**
+Prepaid card,cluster_label_10,8,Prepaid Gift Card Acceptance Failures
+Prepaid card,cluster_label_10,13,**Unauthorized Account & Transaction Fraud Complaints**
+Prepaid card,cluster_label_10,6,**Gift Card Activation & Acceptance Failures**
+Prepaid card,cluster_label_10,14,**Mobile‑payment app dispute and fraud resolution failures**
+Prepaid card,cluster_label_10,3,**Card Transaction Dispute & Refund Issues**
+Prepaid card,cluster_label_10,16,**Unusable Gift Card – Declines Everywhere**
+Prepaid card,cluster_label_10,15,**Account Access & Fraud Issues**
+Prepaid card,cluster_label_10,4,**Digital Wallet Dispute & Refund Failures**
+Prepaid card,cluster_label_15,3,**Financial Account Compromise and Fraud**
+Prepaid card,cluster_label_15,0,**Gift Card Transaction Decline Issues**
+Prepaid card,cluster_label_15,5,**Unauthorized Transaction & Dispute Handling Issues**
+Prepaid card,cluster_label_15,10,**Unresponsive Support & Unjustified Account Closures**
+Prepaid card,cluster_label_15,2,**Denied Transaction Dispute & Refund Issues**
+Prepaid card,cluster_label_15,7,**Card Issuance & Usage Issues**
+Prepaid card,cluster_label_15,4,**Prepaid Gift Card Activation & Acceptance Issues**
+Prepaid card,cluster_label_15,1,**Digital Payment Fund Holds & Dispute Mishandling**
+Prepaid card,cluster_label_15,8,**Prepaid Gift Card Acceptance Issues**
+Prepaid card,cluster_label_15,6,**Prepaid Gift Card Usage & Activation Failures**
+Prepaid card,cluster_label_15,9,**Digital Wallet Dispute & Fund Recovery Issues**
+Prepaid card,cluster_label_20,2,Unreimbursed Losses from Compromised or Closed Accounts
+Prepaid card,cluster_label_20,5,**Gift Card Decline & Redemption Issues**
+Prepaid card,cluster_label_20,0,**Gift Card Transaction & Dispute Issues**
+Prepaid card,cluster_label_20,4,Unauthorized Account Activity
+Prepaid card,cluster_label_20,1,Prepaid Card Decline & Access Issues
+Prepaid card,cluster_label_20,3,Improper Funds Holding & Dispute Resolution Failures
+Prepaid card,cluster_label_25,0,**Account Lockouts and Fraud Dispute Failures**
+Prepaid card,cluster_label_25,2,**Prepaid Gift Card Decline & Support Issues**
+Prepaid card,cluster_label_25,1,**Card Transaction Disputes & Declines**
+Prepaid card,cluster_label_25,3,**Digital Payment Dispute & Funds‑Holding Problems**
+Prepaid card,cluster_label_30,0,**Account Lockout & Fraud Resolution Complaints**
+Prepaid card,cluster_label_30,2,**Prepaid Gift Card Decline & Usability Issues**
+Prepaid card,cluster_label_30,1,**Gift Card Transaction & Dispute Issues**
+Prepaid card,cluster_label_30,3,**Unresolved Transaction Disputes and Funds‑Hold Problems**
+Prepaid card,cluster_label_35,0,**Financial Service Account Dispute & Access Issues**
+Prepaid card,cluster_label_35,2,Prepaid Gift Card Decline & Support Issues
+Prepaid card,cluster_label_35,1,**Prepaid Card Payment & Dispute Issues**
+Prepaid card,cluster_label_35,3,**Payment App Transaction Disputes & Unexplained Fund Holds**
+Prepaid card,cluster_label_40,1,**Account Lockout and Dispute Resolution Failures**
+Prepaid card,cluster_label_40,2,Prepaid Gift Card Decline & Support Problems
+Prepaid card,cluster_label_40,0,**Prepaid Card Abuse and Unresolved Service Issues**
+Mortgage,cluster_label_10,3,**Mortgage Servicing & Payment Mismanagement**
+Mortgage,cluster_label_10,8,**Mortgage Processing & Servicing Issues**
+Mortgage,cluster_label_10,5,**Mortgage Loan Processing & Servicing Issues**
+Mortgage,cluster_label_10,1,**Loan & Mortgage Service Disputes**
+Mortgage,cluster_label_10,6,**Mortgage Servicing Disputes**
+Mortgage,cluster_label_10,7,**Mortgage Servicing and Payment Mismanagement**
+Mortgage,cluster_label_10,2,Mortgage Servicing Abuse & Unfair Practices
+Mortgage,cluster_label_10,9,**Lender Payment and Contract Dispute Issues**
+Mortgage,cluster_label_10,4,**Mortgage Servicing Dispute & Fraud Allegations**
+Mortgage,cluster_label_10,0,**Mortgage Loan Servicing Issues**
+Mortgage,cluster_label_15,0,Mortgage Servicing Errors and Mismanagement
+Mortgage,cluster_label_15,3,**Unfair Banking and Mortgage Practices**
+Mortgage,cluster_label_15,5,**Mortgage Servicing & Loan Processing Issues**
+Mortgage,cluster_label_15,1,**Mortgage Servicing & Loan Management Issues**
+Mortgage,cluster_label_15,2,**Mortgage Servicing Abuse**
+Mortgage,cluster_label_15,4,**Mortgage Servicing Disputes and Fraud Allegations**
+Mortgage,cluster_label_20,0,**Mortgage Servicing and Loan Processing Issues**
+Mortgage,cluster_label_20,1,**Mortgage Servicing & Foreclosure Misconduct**
+Mortgage,cluster_label_20,2,Mortgage Processing and Servicing Issues
+Mortgage,cluster_label_25,0,**Mortgage Lending and Servicing Failures**
+Mortgage,cluster_label_25,1,**Mortgage Servicing & Foreclosure Abuse**
+Mortgage,cluster_label_25,2,**Mortgage Servicing Complaints**
+Mortgage,cluster_label_30,0,**Mortgage Loan Servicing and Modification Problems**
+Mortgage,cluster_label_30,1,**Improper Mortgage Servicing and Foreclosure Practices**
+Mortgage,cluster_label_30,2,Mortgage Servicing & Underwriting Issues
+Mortgage,cluster_label_35,0,**Loan Servicing and Modification Mismanagement**
+Mortgage,cluster_label_35,1,**Mortgage Servicing Abuse and Unlawful Foreclosure Practices**
+Mortgage,cluster_label_35,2,**Mortgage Servicing & Loan Management Issues**
+Mortgage,cluster_label_40,0,**Mortgage Servicing & Assistance Challenges**
+Mortgage,cluster_label_40,1,**Mortgage Servicing Abuse & Improper Foreclosure**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,7,**Loan Repayment and Account Management Disputes**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,20,**Unfair and Deceptive Loan/Credit Servicing**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,6,**Deceptive Credit and Lending Practices**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,15,**Consumer Banking & Credit Service Failures**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,11,**Improper Billing and Overcharging**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,10,**Identity Theft & Account Misuse**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,19,**Unfair Credit Service Practices**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,1,**Financial Account Errors & Fraud Disputes**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,21,**Personal loan servicing issues**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,9,**Consumer Loan & Credit Payment Dispute Issues**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,16,**Loan and Credit Reporting Disputes**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,14,**Financial Institution Errors Leading to Credit Harm**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,27,**Loan Approval Transparency Issues**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,2,**Deceptive Payday‑Loan Practices**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,0,**Credit and Loan Fraud**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,5,**Unauthorized Loan and Fee Disputes**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,8,**Unfair Credit Practices**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,23,**Recurring Unfair Late‑Fee Charges**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,26,**Unauthorized Loan & Credit Inquiry Fraud**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,13,**Digital Wallet Loan & Payment Disputes**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,3,**Inaccurate Credit Reporting & Record Correction Disputes**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,12,**Predatory Loan Fees**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,24,**Payment and Transfer Disputes**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,25,**Credit Report Dispute & Repair Issues**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,18,**Identity Theft & Fraudulent Account Opening**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,22,Identity Data Issues
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,4,Digital Wallet Account Access & Support Issues
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_5,17,Identity Theft & Account Security Concerns
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_10,0,**Misleading Interest and Fee Practices**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_10,4,**Unfair Financial Services Practices**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_10,3,**Financial Service Errors and Unresponsive Support**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_10,2,**Consumer Financial Product Disputes**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_10,1,**Unauthorized Financial Transactions & Credit Disputes**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_15,1,**Unauthorized Credit Activity & Fraud Disputes**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_15,0,**Unfair Lending & Credit Service Practices**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_15,2,**Credit and Loan Dispute Complaints**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_20,0,**Loan & Credit Dispute Complaints**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_20,1,**Consumer Lending & Credit Service Complaints**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_25,0,**Loan & Credit Dispute Issues**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_25,1,**Unfair Lending and Account Handling**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_30,0,**Credit & Loan Dispute Issues**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_30,1,**Unfair Lending & Credit Service Disputes**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_35,0,**Loan & Credit Service Disputes**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_35,1,**Unfair Lending and Credit Service Complaints**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_40,0,**Loan and Credit Account Disputes**
+"Payday loan, title loan, personal loan, or advance loan",cluster_label_40,1,**Loan and Credit Service Disputes**
+Student loan,cluster_label_5,0,**Student Loan Servicing & Fraud Disputes**
+Student loan,cluster_label_5,2,**Student Loan Servicing Issues**
+Student loan,cluster_label_5,3,Student Loan Fraud and Collection Disputes
+Student loan,cluster_label_5,1,**Loan Account Discrepancies**
+Student loan,cluster_label_5,5,**Privacy Violation – Unauthorized Access & Mishandling of Personal Data**
+Student loan,cluster_label_5,4,Outstanding reimbursement claim
+Student loan,cluster_label_10,1,**Private Student Loan Servicing & Credit Reporting Issues**
+Student loan,cluster_label_10,0,Student Loan Servicing Disputes
+Student loan,cluster_label_15,1,**Student Loan Servicing & Credit Reporting Issues**
+Student loan,cluster_label_15,0,**Private Student Loan Servicing and Dispute Issues**
+Student loan,cluster_label_20,0,Student Loan Servicing & Credit Reporting Complaints
+Student loan,cluster_label_25,0,**Student Loan Servicing & Credit Reporting Abuse**
+Student loan,cluster_label_30,0,**Student Loan Servicing & Credit Reporting Abuse**
+Student loan,cluster_label_35,0,**Student Loan Servicing and Credit Reporting Issues**
+Student loan,cluster_label_40,0,**Student loan servicing & credit reporting problems**
+Debt or credit management,cluster_label_5,5,**Incorrect Credit Reporting Disputes**
+Debt or credit management,cluster_label_5,15,**Consumer Credit Reporting & Lender Misconduct**
+Debt or credit management,cluster_label_5,26,**Identity Theft & Unauthorized Account Fraud**
+Debt or credit management,cluster_label_5,28,Payment Dispute & Refund Issues
+Debt or credit management,cluster_label_5,14,**Credit Reporting Disputes & Fraud**
+Debt or credit management,cluster_label_5,10,**Misleading Information & Billing Errors**
+Debt or credit management,cluster_label_5,8,**Unresolved Financial Service Disputes**
+Debt or credit management,cluster_label_5,22,**Financial Service Misrepresentation & Dispute Issues**
+Debt or credit management,cluster_label_5,4,**Predatory Lending & Debt‑Collection Abuse**
+Debt or credit management,cluster_label_5,3,**Identity Theft and Account Fraud**
+Debt or credit management,cluster_label_5,2,**Account Management Issues**
+Debt or credit management,cluster_label_5,13,**Harassment and Unfair Claim Handling**
+Debt or credit management,cluster_label_5,11,Unauthorized Account Fraud and Identity Theft
+Debt or credit management,cluster_label_5,24,Unresolved Money Loss & Fee Disputes
+Debt or credit management,cluster_label_5,7,**Improper Overdraft and Fee Disputes**
+Debt or credit management,cluster_label_5,16,**Unauthorized Transaction Fraud**
+Debt or credit management,cluster_label_5,12,**Unauthorized Account & Fraud Disputes**
+Debt or credit management,cluster_label_5,0,**Fraudulent Legal Misconduct**
+Debt or credit management,cluster_label_5,18,Unauthorized Transaction Refund Issues
+Debt or credit management,cluster_label_5,23,**Financial Services Dispute**
+Debt or credit management,cluster_label_5,21,**Unresolved Banking Transaction Disputes**
+Debt or credit management,cluster_label_5,27,**Account Hijacking & Unresolved Fraud**
+Debt or credit management,cluster_label_5,25,**Unresponsive Customer Support**
+Debt or credit management,cluster_label_5,20,**Credit Report & Billing Dispute**
+Debt or credit management,cluster_label_5,9,**Credit Card Fraud & Service Complaints**
+Debt or credit management,cluster_label_5,1,**Credit Repair & Debt Relief**
+Debt or credit management,cluster_label_5,17,Missing Transfer Notification
+Debt or credit management,cluster_label_5,6,**Credit Card Financial Hardship**
+Debt or credit management,cluster_label_5,29,**Deceptive Debt‑Relief Scams Causing Credit Damage**
+Debt or credit management,cluster_label_5,19,**Credit Score & Negative Reporting Issues**
+Debt or credit management,cluster_label_10,0,**Financial Account Dispute Issues**
+Debt or credit management,cluster_label_10,2,**Debt Settlement & Account Management Disputes**
+Debt or credit management,cluster_label_10,4,**Unauthorized Account Activity and Credit Management Issues**
+Debt or credit management,cluster_label_10,1,**Improper Fees and Account Mismanagement**
+Debt or credit management,cluster_label_10,3,**Unauthorized Transactions & Refund Support Failures**
+Debt or credit management,cluster_label_15,0,**Financial Fraud and Credit Reporting Disputes**
+Debt or credit management,cluster_label_15,2,**Debt Settlement and Account Dispute Issues**
+Debt or credit management,cluster_label_15,1,**Improper Fees and Account Misconduct**
+Debt or credit management,cluster_label_20,1,**Financial Fraud & Credit Reporting Complaints**
+Debt or credit management,cluster_label_20,0,**Financial Account Mismanagement**
+Debt or credit management,cluster_label_25,1,**Financial Account Disputes & Credit Reporting Issues**
+Debt or credit management,cluster_label_25,0,**Improper Account Handling and Consumer Harm**
+Debt or credit management,cluster_label_30,0,**Account Mismanagement & Credit Reporting Issues**
+Debt or credit management,cluster_label_35,0,**Financial Account Errors & Dispute Issues**
+Debt or credit management,cluster_label_40,0,**Financial Account & Credit Dispute Issues**
