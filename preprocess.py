@@ -39,6 +39,12 @@ def preprocess_data(first_date_to_keep = date.today() - timedelta(days=365), com
 
     #filter to only include rows with date_received on or after first_date_to_keep
     dta = dta[dta['date_received'] >= first_date_to_keep]
+
+    dta['narr_length'] = dta.consumer_complaint_narrative.str.len()
+    #drop narrative gt 4930 characters
+    dta = dta.loc[dta.narr_length <= 4930, :]
+   
+
     #reset index
     dta = dta.reset_index(drop=True)
 
