@@ -26,7 +26,7 @@ def plot_silhouette_scores(silhouette_df, output_path=None):
     plt.show()
 
 
-def plot_umap_clusters(embeddings_df, n_embedding_cols, output_dir='plots'):
+def plot_umap_clusters(embeddings_df, n_embedding_cols, output_dir='plots', date_range=None, companies=None):
     """
     Generate UMAP visualizations for each product's clusters.
     
@@ -34,6 +34,8 @@ def plot_umap_clusters(embeddings_df, n_embedding_cols, output_dir='plots'):
         embeddings_df (pd.DataFrame): DataFrame with embeddings and cluster labels
         n_embedding_cols (int): Number of embedding columns
         output_dir (str): Directory to save plots
+        date_range (tuple): Optional tuple of (start_date, end_date) for subtitle
+        companies (list): Optional list of companies for subtitle
     """
     try:
         import umap
@@ -68,7 +70,7 @@ def plot_umap_clusters(embeddings_df, n_embedding_cols, output_dir='plots'):
         embedding_2d = reducer.fit_transform(product_embeddings)
         
         # Create plot
-        plt.figure(figsize=(12, 8))
+        plt.figure(figsize=(14, 10))
         scatter = plt.scatter(
             embedding_2d[:, 0], 
             embedding_2d[:, 1], 
@@ -77,6 +79,22 @@ def plot_umap_clusters(embeddings_df, n_embedding_cols, output_dir='plots'):
             s=5, 
             alpha=0.6
         )
+        
+        # Create title and subtitle
+        title = f"{product}"
+        
+        # Build subtitle
+        subtitle_parts = []
+        if companies:
+            if isinstance(companies, list):
+                if len(companies) == 1:
+                    subtitle_parts.append(f"Company: {companies[0]}")
+                else:
+                    subtitle_parts.append(f"Companies: {', '.join(companies[:3])}" + (f" (+{len(companies)-3} more)" if len(companies) > 3 else ""))
+        if date_range:
+            subtitle_parts.append(f"Date Range: {date_range[0]} to {date_range[1]}")
+        
+        subtitle = " | ".join(subtitle_parts) if subtitle_parts else ""
         
         # Create legend with cluster names (limit to first 50)
         unique_clusters = np.unique(cluster_labels)
@@ -97,7 +115,14 @@ def plot_umap_clusters(embeddings_df, n_embedding_cols, output_dir='plots'):
             legend_elements.append(Patch(facecolor='white', label=f"... and {len(unique_clusters) - 50} more clusters"))
         
         plt.legend(handles=legend_elements, loc='center left', bbox_to_anchor=(1, 0.5), fontsize=8)
-        plt.title(f'UMAP projection of {product} Embeddings ({len(unique_clusters)} clusters)')
+        
+        # Set title and subtitle (combined, centered)
+        if subtitle:
+            full_title = f"{title}\n{subtitle}"
+            plt.title(full_title, fontsize=14, fontweight='bold', pad=20)
+        else:
+            plt.title(title, fontsize=14, fontweight='bold', pad=20)
+        
         plt.xlabel('UMAP 1')
         plt.ylabel('UMAP 2')
         plt.tight_layout()
@@ -108,7 +133,7 @@ def plot_umap_clusters(embeddings_df, n_embedding_cols, output_dir='plots'):
         plt.savefig(plot_path, dpi=150, bbox_inches='tight')
         print(f"Saved plot to {plot_path}")
         
-        plt.show()
+        plt.close()  # Close the plot to free memory instead of showing it
 
 
 def plot_cluster_distribution(embeddings_df, output_path=None):

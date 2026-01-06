@@ -37,20 +37,21 @@ from visualize_clusters import plot_silhouette_scores, plot_umap_clusters, plot_
 # ======================== CONFIGURATION ========================
 CONFIG = {
     # Data preprocessing
-    'days_back': 3,                    # Number of days back to load data
-    'first_date': None,                  # Or specify date as 'YYYY-MM-DD' (overrides days_back)
+    #'days_back': ,                    # Number of days back to load data
+    'first_date': '2023-01-01',                  # Or specify date as 'YYYY-MM-DD' (overrides days_back)
     'companies': ['UNITED SERVICES AUTOMOBILE ASSOCIATION'],                   # List of companies or None for defaults
     
     # Embedding
     'model_name': 'sentence-transformers/all-MiniLM-L6-v2',
     'batch_size': 32,
     'embeddings_path': 'data/complaint_embeddings.pkl',
-    'append_mode': True,                 # True: add new complaints to existing, False: regenerate all
+    'append_mode': False,                 # True: add new complaints to existing, False: regenerate all
     
     # Clustering
     'thresholds': None,                  # List of thresholds or None for defaults
     'max_samples': 25000,
-    'recluster': False,                  # True: re-cluster all data, False: predict using existing centroids
+    'min_samples_per_subproduct': 30,   # Minimum samples required per sub-product (smaller ones grouped into 'Other')
+    'recluster': True,                  # True: re-cluster all data, False: predict using existing centroids
     'centroids_path': 'model/cluster_centroids.pkl',  # Path to save/load cluster centroids
     
     # Cluster naming
@@ -74,6 +75,7 @@ def main():
     os.makedirs('output', exist_ok=True)
     os.makedirs('plots', exist_ok=True)
     os.makedirs('data', exist_ok=True)
+    os.makedirs('model', exist_ok=True)
     
     print("="*80)
     print("COMPLAINT CLUSTERING PIPELINE")
@@ -91,8 +93,15 @@ def main():
     print(f"Products: {df['product'].nunique()}")
     print(f"Companies: {df['company'].nunique()}")
     
+    # Create company suffix for filenames
+    if CONFIG['companies']:
+        company_suffix = '_' + '_'.join([c.lower().replace(' ', '_').replace(',', '')[:20] for c in CONFIG['companies']])
+    else:
+        company_suffix = ''
+    print(f"Company suffix for files: {company_suffix}")
+    
     # Generate embeddings
-    embeddings_path = CONFIG['embeddings_path']
+    embeddings_path = CONFIG['embeddings_path'].replace('.pkl', f"{company_suffix}.pkl")
     
     if CONFIG['skip_embeddings'] and os.path.exists(embeddings_path):
         print(f"\nLoading existing embeddings from {embeddings_path}...")
@@ -158,7 +167,7 @@ def main():
         n_embedding_cols = embeddings_array.shape[1]
     
     # Find optimal clustering thresholds per product
-    thresholds_path = 'output/best_distance_thresholds.csv'
+    thresholds_path = f'output/best_distance_thresholds{company_suffix}.csv'
     
     if CONFIG['skip_clustering'] and os.path.exists(thresholds_path):
         print(f"\nLoading existing thresholds from {thresholds_path}...")
@@ -177,13 +186,19 @@ def main():
         print(best_thresholds_df)
     
     # Cluster complaints by product
-    clustered_path = 'data/complaint_embeddings_with_clusters.pkl'
-    centroids_path = CONFIG['centroids_path']
+    clustered_path = f'data/complaint_embeddings_with_clusters{company_suffix}.pkl'
+    centroids_path = CONFIG['centroids_path'].replace('.pkl', f"{company_suffix}.pkl")
     
     if CONFIG['skip_clustering'] and os.path.exists(clustered_path):
         print(f"\nLoading existing clusters from {clustered_path}...")
         embeddings_df = pd.read_pickle(clustered_path)
-    else:
+        
+        # Verify cluster column exists
+        if 'agglomerative_cluster' not in embeddings_df.columns:
+            print(f"Warning: Loaded file missing cluster column. Will re-cluster.")
+            CONFIG['skip_clustering'] = False
+    
+    if not CONFIG['skip_clustering']:
         if CONFIG['recluster'] or not os.path.exists(centroids_path):
             # Full re-clustering from scratch
             print(f"\nClustering complaints by product (full re-clustering)...")
@@ -239,48 +254,82 @@ def main():
         print(f"Saved clustered data to {clustered_path}")
     
     # Generate cluster names
-    cluster_names_path = 'output/cluster_names.csv'
+    cluster_names_path = f'output/cluster_names{company_suffix}.csv'
     
     if not CONFIG['skip_naming']:
-        print(f"\nGenerating cluster names using LLM...")
-        
-        if os.path.exists(cluster_names_path) and not CONFIG['force_rename']:
-            print(f"Loading existing cluster names from {cluster_names_path}")
-            cluster_names_df = pd.read_csv(cluster_names_path)
+        # Check if clustering has been done
+        if 'agglomerative_cluster' not in embeddings_df.columns:
+            print(f"\nWarning: No cluster labels found. Skipping cluster naming.")
+            print("Please ensure clustering has been completed before naming clusters.")
         else:
-            cluster_names_list = []
+            print(f"\nGenerating cluster names using LLM...")
             
-            for product in embeddings_df['product'].unique():
-                print(f"\nNaming clusters for: {product}")
+            if os.path.exists(cluster_names_path) and not CONFIG['force_rename']:
+                print(f"Loading existing cluster names from {cluster_names_path}")
+                cluster_names_df = pd.read_csv(cluster_names_path)
                 
-                cluster_names = create_cluster_names_batch(
-                    embeddings_df,
-                    product,
-                    'agglomerative_cluster',
-                    n_samples=CONFIG['n_samples_for_naming'],
-                    model=CONFIG['naming_model']
+                # Verify the CSV has the required columns
+                required_cols = ['product', 'agglomerative_cluster']
+                missing_cols = [col for col in required_cols if col not in cluster_names_df.columns]
+                if missing_cols:
+                    print(f"Warning: Cluster names file missing columns {missing_cols}. Regenerating.")
+                    CONFIG['force_rename'] = True
+                else:
+                    # Check if we have names for all current product-cluster combinations
+                    current_combos = set(
+                        tuple(x) for x in embeddings_df[['product', 'agglomerative_cluster']].drop_duplicates().values
+                    )
+                    existing_combos = set(
+                        tuple(x) for x in cluster_names_df[['product', 'agglomerative_cluster']].values
+                    )
+                    missing_combos = current_combos - existing_combos
+                    
+                    if missing_combos:
+                        print(f"Warning: Cluster names file missing {len(missing_combos)} product-cluster combinations.")
+                        print(f"Regenerating all cluster names to ensure consistency.")
+                        CONFIG['force_rename'] = True
+            
+            if CONFIG['force_rename'] or not os.path.exists(cluster_names_path):
+                cluster_names_list = []
+                
+                for product in embeddings_df['product'].unique():
+                    print(f"\nNaming clusters for: {product}")
+                    
+                    # Sample narratives for this product
+                    product_df = embeddings_df[embeddings_df['product'] == product]
+                    
+                    for cluster_id in product_df['agglomerative_cluster'].unique():
+                        cluster_mask = product_df['agglomerative_cluster'] == cluster_id
+                        sample_narratives = product_df[cluster_mask]['consumer_complaint_narrative'].dropna().sample(
+                            n=min(CONFIG['n_samples_for_naming'], cluster_mask.sum()), 
+                            random_state=42
+                        ).tolist()
+                        
+                        from name_clusters import create_cluster_name
+                        cluster_name = create_cluster_name(sample_narratives, model=CONFIG['naming_model'])
+                        
+                        cluster_names_list.append({
+                            'product': product,
+                            'agglomerative_cluster': cluster_id,
+                            'cluster_name': cluster_name
+                        })
+                
+                cluster_names_df = pd.DataFrame(cluster_names_list)
+                cluster_names_df.to_csv(cluster_names_path, index=False)
+                print(f"\nSaved cluster names to {cluster_names_path}")
+            
+            # Merge cluster names with embeddings (only if both have the column)
+            if 'agglomerative_cluster' in cluster_names_df.columns:
+                embeddings_df = embeddings_df.merge(
+                    cluster_names_df,
+                    on=['product', 'agglomerative_cluster'],
+                    how='left'
                 )
                 
-                for cluster_id, cluster_name in cluster_names.items():
-                    cluster_names_list.append({
-                        'product': product,
-                        'agglomerative_cluster': cluster_id,
-                        'cluster_name': cluster_name
-                    })
-            
-            cluster_names_df = pd.DataFrame(cluster_names_list)
-            cluster_names_df.to_csv(cluster_names_path, index=False)
-            print(f"\nSaved cluster names to {cluster_names_path}")
-        
-        # Merge cluster names with embeddings
-        embeddings_df = embeddings_df.merge(
-            cluster_names_df,
-            on=['product', 'agglomerative_cluster'],
-            how='left'
-        )
-        
-        # Save updated embeddings with cluster names
-        embeddings_df.to_pickle(clustered_path)
+                # Save updated embeddings with cluster names
+                embeddings_df.to_pickle(clustered_path)
+            else:
+                print("Warning: Could not merge cluster names - missing agglomerative_cluster column")
     else:
         print(f"\nSkipping cluster naming")
     
@@ -288,8 +337,12 @@ def main():
     if not CONFIG['skip_visualization']:
         print(f"\nGenerating visualizations...")
         
-        # Plot UMAP for each product
-        plot_umap_clusters(embeddings_df, n_embedding_cols, output_dir='plots')
+        # Prepare date range and companies for subtitle
+        date_range = (df['date_received'].min(), df['date_received'].max()) if 'date_received' in df.columns else None
+        companies_list = CONFIG['companies'] if CONFIG['companies'] else df['company'].unique().tolist()
+        
+        # Plot UMAP for each product-subproduct
+        plot_umap_clusters(embeddings_df, n_embedding_cols, output_dir='plots', date_range=date_range, companies=companies_list)
         
         print("\n" + "="*80)
         print("PIPELINE COMPLETE!")

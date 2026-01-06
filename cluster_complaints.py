@@ -75,8 +75,7 @@ def compute_cluster_centroids(embeddings_df, n_embedding_cols, cluster_col='aggl
     centroids = {}
     
     for product in embeddings_df['product'].unique():
-        product_mask = embeddings_df['product'] == product
-        product_df = embeddings_df.loc[product_mask]
+        product_df = embeddings_df[embeddings_df['product'] == product]
         
         for cluster_id in product_df[cluster_col].unique():
             cluster_mask = product_df[cluster_col] == cluster_id
@@ -144,7 +143,7 @@ def predict_clusters(embeddings_df, n_embedding_cols, centroids, cluster_col='ag
         product_centroids = {k: v for k, v in centroids.items() if k[0] == product}
         
         if len(product_centroids) == 0:
-            print(f"Warning: No centroids found for product {product}, skipping")
+            print(f"Warning: No centroids found for {product}, skipping")
             continue
         
         # Create array of centroids and corresponding cluster IDs
@@ -189,7 +188,7 @@ def cluster_by_product(embeddings_df, n_embedding_cols, best_thresholds_df,
         # Get number of clusters for this product
         product_thresholds = best_thresholds_df[best_thresholds_df['product'] == product]
         if len(product_thresholds) == 0:
-            print(f"Warning: No threshold found for product {product}, skipping")
+            print(f"Warning: No threshold found for {product}, skipping")
             continue
             
         n_clusters = int(product_thresholds['num_clusters'].values[0])
@@ -247,8 +246,7 @@ def find_best_thresholds_by_product(embeddings_df, n_embedding_cols,
         print(f"Finding optimal threshold for: {product}")
         print(f"{'='*60}")
         
-        product_mask = embeddings_df['product'] == product
-        product_embeddings = embeddings_df.loc[product_mask].iloc[:, :n_embedding_cols].values
+        product_embeddings = embeddings_df[embeddings_df['product'] == product].iloc[:, :n_embedding_cols].values
         
         product_results = find_optimal_threshold(
             product_embeddings, 
